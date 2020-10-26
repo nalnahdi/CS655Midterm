@@ -4,16 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Let's Play </title>
-  <link rel="stylesheet" type="text/css" title="Cool stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" title="Cool stylesheet" href="style2.css">
 </head>
 <body>
-  <div id="root"></div>
-  <ul>
-    <li class="list">
-      <a href="https://www.google.com">Google</a> </li>
-    <li class="list">Second</li>
-    <li class="list">Third</li>
-  </ul>
-  <script src="main.js" type="text/javascript"></script>
+  <center>
+  <div class="container">
+      <div class="divs d1"  onmousemove="disApperaing()"><p id="HH1"><h1></h1></p></div>
+      <div id="divH1" class="divs d2"onmousemove="disApperaing()"><p id="HH1"><h1></h1></p></div>
+      <div class="divs d3"onmousemove="disApperaing()"><p id="HH1"><h1></h1></p></div>
+
+      <div class="divs d4" onmousemove="disApperaing()"><p id="HH1"><h1></h1></p></div>
+      <div class="divs d5" onmousemove="disApperaing()"><p id="HH1"><h1></h1></p></div>
+      <div class="divs d6" onmousemove="disApperaing()"><p id="HH1"><h1></h1></p></div>
+      <div class="divs d7"onmousemove="disApperaing()"><p id="HH1"><h1></h1></p> </div>
+      <div class="divs d8" onmousemove="disApperaing()"><p id="HH1"><h1></h1></p></div>
+      <div class="divs d9" onmousemove="disApperaing()"><p id="HH1"><h1></h1></p></div>
+      </center>
+  <script >
+  var x =document.querySelectorAll("div");
+  var y=document.querySelectorAll("h1");
+  var i;
+  for (i = 0; i < x.length; i++) {
+    y[i].innerHTML=Math.floor(Math.random() * 9)+1;
+  }
+  var output= [];
+
+
+function disApperaing(){
+  document.getElementById('HH1').style.color = "red";
+  var content= document.getElementById("HH1").innerHTML;
+output.push(content);
+
+if(output.length == 9)
+  {
+    alert('The order in which the numbers disappear is: '+output);
+}
+}
+  </script>
 </body>
 </html>

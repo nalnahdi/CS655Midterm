@@ -1,6 +1,7 @@
 Body {
   margin: 0;
-  text-align: center; /* use to center text and inline items*/
+  /*text-align: center; /* use to center text and inline items*/
+
 
 }
 H1 {
@@ -22,7 +23,7 @@ div{
     /*position: relative;*/
     width: 500px;
     height: 400px;
-    background-color: gray;
+    background-color: beige;
 
   }
   .divs{
@@ -41,13 +42,13 @@ div{
     background-image: -ms-linear-gradient(top, #3498db, #2980b9);
     background-image: -o-linear-gradient(top, #3498db, #2980b9);
     background-image: linear-gradient(to bottom, #3498db, #2980b9);
-    -webkit-border-radius: 17;
-    -moz-border-radius: 17;
-    border-radius: 17px;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
     font-family: Arial;
     color: #ffffff;
     font-size: 20px;
-    padding: 10px 20px 10px 20px;
+    padding: 5px 30px 5px 30px;
     text-decoration: none;
   }
 
@@ -81,7 +82,7 @@ div{
 {
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: beige;
   position: relative;
   Left: 200px;
   bottom: 100px;

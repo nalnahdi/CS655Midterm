@@ -1,0 +1,86 @@
+Body {
+  margin: 0;
+  /*text-align: center; /* use to center text and inline items*/
+}
+
+h1 {
+  size: 10%;
+  margin: 0 auto;
+
+  /*use to center a block item that has a width identified*/
+}
+p {
+visibility : visible;
+
+}
+p:hover {
+visibility : hidden;
+color: red;
+}
+
+div {
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  /*position: relative;*/
+  width: 500px;
+  height: 400px;
+  background-color: beige;
+}
+
+.divs {
+  width: 130px;
+  height: 100px;
+  background-color: lightblue;
+  border-color: White;
+  border-style: groove;
+  border-width: thin;
+  position: relative;
+}
+
+.d1 {
+  left: 50px;
+  top: 10px;
+}
+
+.d2 {
+  Left: 183px;
+  bottom: 92px;
+}
+
+.d3 {
+  Left: 316px;
+  bottom: 194px;
+}
+
+.d4 {
+  bottom: 193px;
+  left: 50px;
+}
+
+.d5 {
+  bottom: 295px;
+  Left: 183px;
+}
+
+.d6 {
+  bottom: 397px;
+  Left: 316px;
+}
+
+.d7 {
+  bottom: 396px;
+  Left: 50px;
+}
+
+.d8 {
+  bottom: 498px;
+  Left: 183px;
+}
+
+.d9 {
+  Left: 316px;
+  bottom: 600px;
+}
