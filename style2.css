@@ -9,14 +9,15 @@ h1 {
 
   /*use to center a block item that has a width identified*/
 }
+h1:hover {
+visibility : hidden;
+
+}
 p {
 visibility : visible;
 
 }
-p:hover {
-visibility : hidden;
-color: red;
-}
+
 
 div {
   margin: 0;
